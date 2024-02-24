@@ -1,0 +1,49 @@
+p {
+  border: 3px solid black;
+}
+
+.box1 {
+  /*forma 1 de declarar tablas:*/
+  /* 
+  border-top: 5px;
+  border-color: black;
+  border-style: solid; */
+
+  /*forma 2 de declarar tablas:*/
+  /* width: 300px;
+  height: 300px;
+  border: 5px blueviolet solid;
+  /*puede ser bottom, top, left, etc*/
+  /* border-bottom-style: ; */
+  /*Indica cuán redondeado es el borde*/
+  /* border-radius: 50%;  */
+
+  border: 3px solid blue;
+}
+
+.box2 {
+  background-color: aquamarine;
+  /* padding: 30px; */
+  padding-top: 30px;
+  padding-bottom: 80px;
+  /*Si se le da dos valores al padding:
+  1ro: top+bottom, second: left+right*/
+  padding: 20px 10px;
+  /*Si se le da 3 valores al padding:
+  1ro: top, second: left+right, 3: bottom*/
+  padding: 20px 10px 15px;
+  /*Si se le da 4 valores al padding:
+  1ro: top, second: right, 3: bottom 4:left*/
+  padding: 20px 10px 15px 30px;
+}
+
+.box3 {
+  /* margin: 50px; */
+  /* margin-top: 50px; */
+  margin: 30px 20px 15px;
+}
+
+.box3 {
+  width: 400px;
+  height: 400px;
+}

@@ -1,0 +1,48 @@
+/*Font Families and Sizes*/
+.font-example {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+}
+
+/*Definir detalles de ID que están dentro de otros ID*/
+#formatting-example #bold {
+  font-weight: bold;
+}
+
+#formatting-example #italic {
+  font-style: italic;
+}
+
+#formatting-example #underline {
+  text-decoration: underline;
+}
+
+/*Text aligment*/
+.aligment {
+  text-align: center;
+}
+
+/*Text decoration*/
+.decor {
+  text-decoration: line-through;
+}
+
+/*Espacio de separación vertical del párrafo y separación entre letras*/
+.line-spacing {
+  line-height: 10;
+  letter-spacing: 5px;
+}
+
+/*1: sombra horizontal, 2: sombra vertical, 3: blur, 4: color de sombra*/
+.shadow {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*Link de google fonts: font.google.com
+Se debe obtener "get embed code" y poner eso dentro del header
+También se debe copiar el código de CSS class para la parte de 
+a definir dentro de la clase.*/
+.google {
+  font-family: "Akaya Telivigala", system-ui;
+}

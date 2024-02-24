@@ -1,0 +1,30 @@
+h1 {
+  color: #cfcf;
+}
+
+/*Clases are defined with "." at the beginning*/
+h1,
+.par {
+  background-color: aquamarine;
+}
+
+/*Ids are specified with "#" at the beginning*/
+#p1 {
+  color: blue;
+}
+#p2 {
+  color: orange;
+}
+#p3 {
+  color: brown;
+}
+
+/*Universal selector*/
+* {
+  color: yellowgreen;
+}
+
+/*Pseudo class selector*/
+#hover:hover {
+  background-color: black;
+}

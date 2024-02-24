@@ -1,0 +1,25 @@
+/* Earlier rule */
+p {
+  background-color: aquamarine;
+}
+
+/* Later rule */
+p {
+  background-color: blueviolet;
+}
+
+/* Css will follow the rule that is more specific */
+.par {
+  border: 3px solid black;
+}
+
+/*This rule is applied because is more specific.*/
+#newPar {
+  border: 5px dotted yellow;
+}
+
+/*La clausula "!important aplica solo a la línea específica. y aplica el estilo sobre cualquier otra jerarquía*/
+div {
+  padding: 10px;
+  background-color: aquamarine !important;
+}
