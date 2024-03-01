@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grid2</title>
+    <style>
+      .container {
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-columns: repeat(3,1fr) */
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        /* along the main axis (horizontal) */
+        justify-content: space-between;
+        /* Along the ross axis (vertical) */
+        /* start, end, center, space-between, space-around */
+        align-content: space-between;
+        
+      }
+
+      /* Grid item styles */
+      .gridItem {
+        background-color: #f2f2f2;
+        padding: 10px;
+        margin: 2px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container gridContainer">
+      <div class="gridItem gridItem1">1</div>
+      <div class="gridItem gridItem2">2</div>
+      <div class="gridItem gridItem3">3</div>
+      <div class="gridItem gridItem4">4</div>
+    </div>
+  </body>
+</html>

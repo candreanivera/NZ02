@@ -1,0 +1,99 @@
+/*Title of the page*/
+body,
+header,
+h1 {
+  background-color: rgb(193, 176, 201);
+  text-align: center;
+  padding: 1px;
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(193, 176, 201);
+  text-align: center;
+  padding: 1px;
+  font-weight: bold;
+}
+
+#cristina {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: rgb(56, 50, 62);
+}
+
+#whoami {
+  color: rgb(32, 7, 56);
+  border-color: black;
+  /* border-width: 1px; */
+  /* border-style: solid; */
+  padding: 0px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  border-radius: 0px;
+}
+
+#maintable {
+  /* width: 100%; */
+  padding-left: 0px;
+  padding-right: 0px;
+  /* font-family: "Pacifico", cursive; */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#aboutme {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+body {
+  background-color: rgb(239, 243, 247);
+}
+
+#hobbies {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 0%;
+}
+
+#list {
+  padding-left: 0%;
+}
+
+/* Iphone and Android <481 px
+Ipads and Tablets - 481px - 768px
+laptops/small screens - 769px - 1024px
+desktops or large screens - 1025px - 1200px
+very large monitors - 1201px and above
+*/
+/* Media queries for small screens*/
+@media screen and (min-width: 0px) {
+  #moai {
+    width: 300px;
+  }
+  #tongariro {
+    width: 300px;
+  }
+}
+
+/* Media queries for ipads and tablets*/
+@media screen and (min-width: 1023px) {
+  #moai {
+    width: 550px;
+  }
+  #tongariro {
+    width: 460px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #moai {
+    width: 700px;
+  }
+  #tongariro {
+    width: 600px;
+  }
+}
